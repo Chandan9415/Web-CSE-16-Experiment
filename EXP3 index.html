@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+ </head>
+ <body>
+    <h1 align="center">Student Registration Form</h1>
+    <form action="./response.html" target="_blank" name="Student Registration 
+Form" method="post">
+        <fieldset>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your 
+name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your 
+email" required>
+            <br><br>
+            <lable for="password">Password:</lable>
+            <input type="password" id="password" name="password" 
+placeholder="Enter your password" required>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <lable for="male">Male</lable>
+            <input type="radio" id="female" name="gender" value="female"required>
+
+            <lable for="female">Female</lable>
+            <input type="radio" id="other" name="gender" value="walmart bag" 
+            <lable for="other">Other</lable>
+            <br><br>
+            <label for="courses">Select Course:</label>
+            <select id="courses" name="courses" required>
+                <option value="" disabled selected>Select your course</option>
+                <option value="btech">B.Tech</option>
+                <option value="bca">BCA</option>
+                <option value="bsc">B.Sc</option>
+                <option value="mba">MBA</option>
+            </select>
+            <br><br>
+            <label for="tel">Contact No:</label>
+            <input type="tel" id="tel" name="tel" placeholder="Enter your phone 
+number" required>
+            <br><br>
+            <lable for="address">Address:</lable><br>
+            <textarea id="address" name="address" rows="4" cols="30" 
+placeholder="Enter your address" required></textarea> 
+            <br><br>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </fieldset>
+    </form>
+    <p align="center">&copy; 2025 Student Registration Portal</p>
+ </body>
+ </html>
