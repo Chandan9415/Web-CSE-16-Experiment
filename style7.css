@@ -1,0 +1,29 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.block-menu a{
+    display: block;
+    background-color: greenyellow;
+    color: rgb(11, 9, 9);
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.inline-menu a
+{
+    display: inline;
+     background-color: red;
+    color : white;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.float-menu a
+{
+    display: float;
+     background-color: orange;
+    color: Black ;
+    padding: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+}
