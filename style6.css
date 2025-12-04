@@ -1,0 +1,61 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    margin:20px;
+}
+h1
+{
+color: black;
+margin-bottom: 30px;
+}
+.product-box
+{
+<<<<<<< HEAD
+background-color: white;
+width: 300px;
+margin: 0 auto;
+padding: 15px;
+border: 2px solid gray;
+=======
+background-color: grey;
+width: 300px;
+margin: 0 auto;
+padding: 15px;
+border: 2px solid red;
+>>>>>>> 2f7b1adf074218c83f5c4d9b8a937299b2246e25
+border-radius: 8px;
+}
+.product-image
+{
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+.description
+{
+color: dimgray;
+
+}
+.price
+{
+   color: red;
+   font-weight: bold;
+<<<<<<< HEAD
+   margin-bottom: 15px;
+=======
+  margin-bottom: 15px;
+>>>>>>> 2f7b1adf074218c83f5c4d9b8a937299b2246e25
+}
+button
+{
+background-color: blue;
+color: white;
+border-radius: 5px;
+<<<<<<< HEAD
+cursor: pointer;
+=======
+cursor: pointer;
+>>>>>>> 2f7b1adf074218c83f5c4d9b8a937299b2246e25
+}
