@@ -1,0 +1,67 @@
+/* NAVBAR MAIN */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 12px 20px;
+    color: white;
+}
+
+/* LOGO */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+/* DESKTOP MENU */
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* HAMBURGER ICON */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    background: #333;
+    padding: 10px;
+}
+
+.mobile-menu a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* ----------------- MEDIA QUERY ----------------- */
+@media (max-width: 768px) {
+
+    .nav-links {
+        display: none; /* hide desktop menu */
+    }
+
+    .hamburger {
+        display: block; /* show hamburger icon */
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+}
