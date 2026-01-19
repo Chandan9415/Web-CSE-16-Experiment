@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+}
+
+.left {
+  background-color: lightgreen;
+}
+
+.right {
+  background-color: lightblue;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    background-color: lightcoral;
+  }
+}
