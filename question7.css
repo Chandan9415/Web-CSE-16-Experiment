@@ -1,0 +1,17 @@
+.px {
+  font-size: 24px;
+}
+
+.rem {
+  font-size: 2rem;
+}
+
+.box {
+  width: 50%;
+  height: 20vh;
+  background-color: coral;
+}
+
+html {
+  font-size: 10px;
+}
